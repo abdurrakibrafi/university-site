@@ -1,0 +1,129 @@
+.p {
+  width: 50%;
+  margin: auto;
+}
+.divider {
+  margin-left: 80px;
+  padding-top: 70px;
+}
+.link {
+  border-bottom: 3px solid #0e8165;
+  width: 22%;
+  cursor: pointer;
+  color: #0e8165;
+  font-size: 16px;
+  transition: all 0.5s;
+}
+.link:hover {
+  font-weight: 700;
+  transform: scale(1.1);
+}
+.column {
+  border: 1px solid #0e8165;
+}
+.title {
+  margin-top: 90px;
+}
+.maincard:hover .cardimg {
+  transform: scale(1.1);
+}
+.maincard {
+  cursor: pointer;
+  width: 30rem;
+}
+.imgwrapper {
+  overflow: hidden;
+}
+.third {
+  height: 130vh;
+}
+@media (max-width: 1035px) {
+  .title {
+    margin-top: 50px;
+  }
+  .p {
+    width: 80%;
+  }
+  .maincard {
+    width: 21rem;
+  }
+  .divider {
+    margin-left: 120px;
+    padding-top: 50px;
+  }
+}
+@media (max-width: 965px) {
+  .title {
+    margin-top: 50px;
+  }
+  .p {
+    width: 90%;
+  }
+  .maincard {
+    width: 25rem;
+  }
+  .divider {
+    margin-left: 180px;
+    padding-top: 50px;
+  }
+}
+@media (max-width: 565px) {
+  .title {
+    margin-top: 50px;
+  }
+  .p {
+    width: 80%;
+  }
+  .maincard {
+    width: 20rem;
+  }
+  .divider {
+    margin-left: 100px;
+    padding-top: 50px;
+  }
+}
+@media (max-width: 413px) {
+  .title {
+    margin-top: 50px;
+  }
+  .p {
+    width: 85%;
+  }
+  .maincard {
+    width: 15rem;
+  }
+  .divider {
+    margin-left: 75px;
+    padding-top: 50px;
+  }
+}
+@media (max-width: 395px) {
+  .title {
+    margin-top: 50px;
+  }
+  .p {
+    width: 95%;
+  }
+  .maincard {
+    width: 15rem;
+  }
+  .divider {
+    margin-left: 65px;
+    padding-top: 50px;
+  }
+}
+@media (max-width: 360px) {
+  .title {
+    margin-top: 60px;
+  }
+  .p {
+    width: 85%;
+  }
+  .maincard {
+    width: 15rem;
+  }
+  .divider {
+    margin-left: 50px;
+    padding-top: 60px;
+  }
+}

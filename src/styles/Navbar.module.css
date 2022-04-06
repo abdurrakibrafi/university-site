@@ -1,0 +1,100 @@
+.logo {
+  padding-left: 80px;
+}
+.hr {
+  transform: rotate(90);
+}
+.font1 {
+  color: #39569c;
+  cursor: pointer;
+  transition: all 0.4;
+}
+.font2 {
+  color: #00acee;
+  cursor: pointer;
+}
+.font3 {
+  color: #e95950;
+  cursor: pointer;
+}
+.font4 {
+  color: #ff0000;
+  cursor: pointer;
+  margin-right: 55px;
+}
+.font1:hover {
+  transform: rotateY(180deg);
+}
+.font3:hover {
+  transform: rotateY(180deg);
+}
+.font2:hover {
+  transform: rotateY(180deg);
+}
+.font4:hover {
+  transform: rotateY(180deg);
+}
+.drop {
+  background-color: none;
+  margin-top: 1px;
+}
+.dropbtn {
+  color: black;
+}
+
+.dropbtn:hover {
+  background-color: #0e8165;
+  color: white;
+}
+.p2 {
+  margin: auto;
+}
+.mainnavbar {
+  box-shadow: 9px 26px 44px -33px rgba(0, 0, 0, 0.52);
+}
+.pop {
+  text-align: center;
+  align-items: center;
+}
+.button {
+  background-color: #0e8165;
+  color: white;
+  text-align: center;
+  align-items: center;
+}
+.button:hover {
+  background-color: #0e8165;
+}
+.head {
+  color: #0e8165;
+  outline: none;
+}
+input[type="checkbox"]:checked + label:before {
+  background-color: #ff0000;
+  color: white;
+}
+@media (max-width: 870px) {
+  .logo {
+    padding-left: 17px;
+  }
+}
+@media (max-width: 565px) {
+  .logo {
+    padding-left: 17px;
+  }
+}
+@media (max-width: 423px) {
+  .logo {
+    padding-left: 17px;
+  }
+}
+@media (max-width: 395px) {
+  .logo {
+    padding-left: 17px;
+  }
+}
+@media (max-width: 363px) {
+  .logo {
+    padding-left: 27px;
+  }
+}

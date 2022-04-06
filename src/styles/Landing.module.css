@@ -1,0 +1,109 @@
+.maincaption {
+  padding-left: 90px;
+  margin-top: 150px;
+}
+.caption {
+  top: -30%;
+  margin-top: 80px;
+  color: white;
+  font-weight: 700;
+  font-size: 1rem;
+}
+.caption1 {
+  top: -30%;
+  color: white;
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+
+.but {
+  background-color: #0e8165;
+  color: white;
+  font-size: 20px;
+  transition: all 0.1s;
+  border: none;
+}
+.but:hover {
+  background-color: transparent;
+  border: 1px solid white;
+  color: white;
+}
+.para {
+  font-size: 27px;
+}
+@media (max-width: 870px) {
+  .maincaption {
+    padding-left: 38px;
+    margin-top: 350px;
+  }
+  .caption1 {
+    font-size: 2.5rem;
+  }
+  .caption {
+    font-size: 1.6rem;
+  }
+  .para {
+    font-size: 2.2rem;
+  }
+}
+@media (max-width: 563px) {
+  .maincaption {
+    padding-left: 18px;
+    margin-top: 190px;
+  }
+  .caption1 {
+    font-size: 2.2rem;
+  }
+  .caption {
+    font-size: 1.3rem;
+  }
+}
+@media (max-width: 413px) {
+  .maincaption {
+    padding-left: 22px;
+    margin-top: 220px;
+  }
+  .caption1 {
+    font-size: 2.2rem;
+  }
+  .caption {
+    font-size: 1.3rem;
+  }
+  .para {
+    font-size: 21px;
+  }
+}
+@media (max-width: 395px) {
+  .maincaption {
+    padding-left: 32px;
+    margin-top: 170px;
+  }
+  .caption1 {
+    font-size: 2.2rem;
+  }
+  .caption {
+    font-size: 1.2rem;
+  }
+  .para {
+    font-size: 21px;
+  }
+}
+@media (max-width: 386px) {
+  .maincaption {
+    padding-left: 32px;
+    margin-top: 80px;
+  }
+  .caption1 {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 362px) {
+  .maincaption {
+    padding-left: 32px;
+    margin-top: 80px;
+  }
+  .caption1 {
+    font-size: 2rem;
+  }
+}

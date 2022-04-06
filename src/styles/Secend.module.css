@@ -1,0 +1,125 @@
+.secend {
+  background-color: #fcf2eb;
+  width: 100%;
+  height: 90vh;
+}
+.divider {
+  margin-left: 80px;
+  padding-top: 100px;
+}
+
+.teacher {
+  width: 480px;
+  height: 60vh;
+}
+.p {
+  font-size: 22px;
+}
+.column {
+  width: 560px;
+}
+.link {
+  border-bottom: 3px solid #0e8165;
+  width: 18%;
+  cursor: pointer;
+  color: #0e8165;
+  font-size: 16px;
+  transition: all 0.5s;
+}
+.link:hover {
+  font-weight: 700;
+  transform: scale(1.1);
+}
+@media (max-width: 1035px) {
+  .secend {
+    width: 80%;
+  }
+  .p {
+    font-size: 19px;
+  }
+  .teacher {
+    width: 390px;
+    height: 40vh;
+  }
+  .divider {
+    margin-left: 48px;
+    padding-top: 80px;
+  }
+  .secend {
+    height: 85vh;
+  }
+}
+@media (max-width: 965px) {
+  .p {
+    font-size: 21px;
+  }
+  .teacher {
+    width: 690px;
+    height: 40vh;
+  }
+  .divider {
+    margin-left: 18px;
+    padding-top: 80px;
+  }
+  .secend {
+    height: 85vh;
+  }
+}
+@media (max-width: 565px) {
+  .teacher {
+    width: 470px;
+    height: 39vh;
+  }
+  .divider {
+    margin-left: 18px;
+    padding-top: 80px;
+  }
+  .secend {
+    height: 109vh;
+  }
+}
+
+@media (max-width: 413px) {
+  .teacher {
+    width: 340px;
+    height: 30vh;
+  }
+  .divider {
+    margin-left: 18px;
+    padding-top: 80px;
+  }
+  .secend {
+    height: 95vh;
+  }
+}
+@media (max-width: 395px) {
+  .teacher {
+    width: 320px;
+    height: 30vh;
+  }
+  .divider {
+    margin-left: 18px;
+    padding-top: 80px;
+  }
+  .secend {
+    height: 98vh;
+  }
+}
+@media (max-width: 386px) {
+  .secend {
+    height: 118vh;
+  }
+}
+@media (max-width: 360px) {
+  .teacher {
+    width: 280px;
+    height: 50vh;
+  }
+  .divider {
+    margin-left: 26px;
+    padding-top: 100px;
+  }
+  .secend {
+    height: 150vh;
+  }
+}
